@@ -27,7 +27,7 @@ In short it allows you to connect to other remote computers.
 When you `ssh` to the remote machine it, you need to enter the password for this level(bandit0).
 
 
-The `-p` in `ssh` means port. So were connecting to port number 2220. 
+The `-p` in `ssh` means port. So we'll be connecting to port number 2220. 
 
 
 ```bash
