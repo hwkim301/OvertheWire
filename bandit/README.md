@@ -10,7 +10,7 @@ So I decided to publish a detailed writeup.
 You should know some basic terminal commands like `ls`, `cat`, `gzip`, however you can still follow along my writeups. 
 
 
-It will be a bit hard ady might take more time than those who know linux terminal commands. 
+It will be a bit hard and might take more time than those who know linux terminal commands. 
 
 For writeups I recommend watching [Anyascii's writeup videos](https://www.youtube.com/watch?v=-GXCqqdbzFM&list=PLDeiu_UsIPZaCf6zTvcQNOmLF7alb2J9R).
 
