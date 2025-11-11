@@ -1,4 +1,4 @@
-### Level0-> Level11
+### Level10-> Level11
 
 Login to `bandit10` with the previous password. 
 
