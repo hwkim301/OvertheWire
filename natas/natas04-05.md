@@ -10,7 +10,10 @@ You should probably check the cookies of the webpage.
 What exactly is a cookie?
 
 
-A **[cookie](https://en.wikipedia.org/wiki/HTTP_cookie)** os a small piece of dat created by the web server when a user is browsing a website, they enable web servers to store stateful information. 
+A **[cookie](https://en.wikipedia.org/wiki/HTTP_cookie)** is a small piece of data created by the web server when a user is browsing a website. 
+
+
+Cookies enable web servers to store stateful information. 
 
 
 You can check the cookie values by right clicking-> Inspect-> Applications.
