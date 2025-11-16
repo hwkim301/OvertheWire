@@ -147,7 +147,7 @@ Click on the link and then click forward in burp again.
 Along side a whole bunch of weird characters you'll find a password.
 
 
-```
+```bash 
 z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ 
 ```
 
