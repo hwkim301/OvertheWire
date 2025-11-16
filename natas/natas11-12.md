@@ -319,7 +319,7 @@ The `pathinfo()` function grabs the `.jpg` and creates an image file.
 With burp you can intercept the request and change the filename from `ae6fakqbxw.jpg` to `natas12.php`. 
 
 
-The script now runs `pathinfo($fn, PATHINFO_EXTENSION)`, which will build a new filename `ae6fakqbxw.php` instead of ``ae6fakqbxw.jpg`.
+The script now runs `pathinfo($fn, PATHINFO_EXTENSION)`, which will build a new filename `ae6fakqbxw.php` instead of `ae6fakqbxw.jpg`.
 
 
 
