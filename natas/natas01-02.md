@@ -15,7 +15,9 @@ When checking the page source you can see that there is a link to an image file.
 ```
 
 
-The image(pixel.png) looks like a black picture without any important information, however when you move a directory up to the `files` directory(http://natas2.natas.labs.overthewire.org/files/) there's another file named `users.txt`.
+The image(pixel.png) looks like a black picture without any important information, however when you move a directory up to the [files](http://natas2.natas.labs.overthewire.org/files/) directory. 
+
+You can see that there's another file named `users.txt`.
 
 
 Let's check the `users.txt` file.
