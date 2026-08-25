@@ -1,8 +1,6 @@
 ## Level6 -> Level7
 
-
-Two links (`Home` and `About`) are given.
-
+Two links respectively home and about are given.
 
 If you're a keen person you'll notice that the url changes when you clink on either of the links.
 
@@ -24,7 +22,7 @@ http://natas7.natas.labs.overthewire.org/index.php?page=about
 You'll also notice that the `/index.php?page=link_name` was added at the end.
 
 
-The value that starts right after the ? is called a **[query string](https://en.wikipedia.org/wiki/Query_string)**.
+The value that starts right after the ? is called a [query string](https://en.wikipedia.org/wiki/Query_string).
 
 
 It's used to specify parameters in a url. 
@@ -44,7 +42,7 @@ There is a html comment like this.
 The hint tells us that the password is in `/etc/natas_webpass/natas8`. 
 
 
-Since `?page=home` shows the home page and vice versa for about, what would happend if we changed it to `/etc/natas_webpass/natas8`? 
+Since `?page=home` shows the home page and vice versa for about, what would happen if we changed it to `/etc/natas_webpass/natas8`? 
 
 
 Wouldn't that reveal the password? 
@@ -62,5 +60,5 @@ If you change the url you'll see the password.
 
 
 ```
-xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
+ugXL95KQmUAJJj6bMezOlBNDyI9Imwkc
 ```

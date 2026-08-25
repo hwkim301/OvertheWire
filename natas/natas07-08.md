@@ -1,7 +1,7 @@
 ## Level7 -> Level8
 
 
-The design of the website looks exactly the same as the level before. 
+The  website looks exactly the same as the level before. 
 
 
 There's a submit button for the secret, a link to view the source code. 
@@ -30,65 +30,49 @@ if(array_key_exists("submit", $_POST)) {
 ```
 
 
-There's a `encodeSecret` function that base64 encodes `$secret` strrevs it and bin2hexs it. 
+There's a `encodeSecret` function that base64 encodes secret strrevs it and bin2hexs it. 
 
 
-So we need to pass the correct `$secret` and it has to be equal to `$encodedSecret` after passing it to the `encodeSecret` function.
+So we need to pass the correct secret and it has to be equal to encodedSecret after passing it to the `encodeSecret` function.
 
 
-Since We only know the `$encodedSecret` and not the `$secret` we'll have to reverse the `encodeSecret` function to get `$secret`.
+Since We only know the encodedSecret and not the secret, we'll have to reverse the `encodeSecret` function to get secret.
 
 
 The `encodeSecret` does 3 things when `$secret` is taken as an argument. 
 
 
-### 1. base64_encode 
+1. [base64_encode](https://www.php.net/manual/en/function.base64-encode.php)
 
 
-https://www.php.net/manual/en/function.base64-encode.php
+2. [strrev](https://www.php.net/manual/en/function.strrev.php)
 
 
-### 2. strrev
+3. [bin2hex](https://www.php.net/manual/en/function.bin2hex.php) 
 
 
-https://www.php.net/manual/en/function.strrev.php
-
-
-### 3. bin2hex 
-
-https://www.php.net/manual/en/function.bin2hex.php
-
-
-
-We can take the exact opposite measures to get the `$secret` value.
+We can take the exact opposite measures to get the secret value.
 
 
 An important thing is to start from reversing `bin2hex` because that was the last step in the `encodeSecret` function.
 
 
-### 1. hex2bin 
+1. [hex2bin](https://www.php.net/manual/en/function.hex2bin.php)
 
 
 To reverse the result of `bin2hex` you have to use the `hex2bin` function. 
 
 
-https://www.php.net/manual/en/function.hex2bin.php
-
-
-### 2. strrev 
+2. strrev 
 
 
 You can reverse a same string twice to get the original non reversed string 
 
 
-### 3. base64_decode 
+3. [base64_decode](https://www.php.net/manual/en/function.base64-decode.php) 
 
 
 The opposite of encoding is decoding. 
-
-
-https://www.php.net/manual/en/function.base64-decode.php
-
 
 
 Here's the php script I wrote. 
@@ -105,11 +89,11 @@ echo base64_decode(strrev(hex2bin($encodedSecret))); # oubWYf2kBq
 ```
 
 
-Submitting the base64_decode final output will show you the password. 
+Submitting the base64 decoded output will grant you the password. 
 
 
 ```
-Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+Access granted. The password for natas9 is UdxmI27dTaXmnd1rxKQTfws6jihTdcQ9
 ```
 
 
@@ -119,7 +103,7 @@ You can also use python instead of php, but I think it's a good idea to use php 
 ```python
 from base64 import b64decode 
 
-encodedsecret="3d3d516343746d4d6d6c315669563362"
+encodedsecret='3d3d516343746d4d6d6c315669563362'
 bytes.fromhex(encodedsecret) # b'==QcCtmMml1ViV3b'
 b64decode(bytes.fromhex(encodedsecret)[::-1]) # b'oubWYf2kBq'
 ```
