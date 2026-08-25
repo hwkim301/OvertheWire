@@ -21,25 +21,29 @@ If it's your first time solving these problems. It will be pretty much impossibl
 I'll just give the answer right away. 
 
 
-You need to enter **[robots.txt](https://en.wikipedia.org/wiki/Robots.txt)** at the end of the URL like this.
+You need to enter [robots.txt](https://en.wikipedia.org/wiki/Robots.txt) at the end of the URL like this.
 
 
 http://natas3.natas.labs.overthewire.org/robots.txt
 
 
-Well, what exactly is `robots.txt`? 
+Well, what exactly is robots.txt? 
 
 
-`robots.txt` is a standard by used by websites to indicate web crawlers and web robots which parts of the website they are allowed to visit. 
+robots.txt is a standard by used by websites to indicate web crawlers and web robots which parts of the website they are allowed to visit. 
 
 
 It's a pretty tricky concept, but in short in determines which part of the website web crawlers are allowed to visit. 
 
 
-**[Web crawlers](https://en.wikipedia.org/wiki/Web_crawler)** are used for indexing, which literally means the index of a book where we can find a certain content easily, in this case however it would be applied to websites. 
+[Web crawlers](https://en.wikipedia.org/wiki/Web_crawler) are used for indexing. 
+
+Indexing as in, an index of a book. 
+
+Indexing is used in order to find certain content easily, in this case however it would be applied to websites instead of books.
 
 
-Anyways when visiting the [robots.txt](http://natas3.natas.labs.overthewire.org/robots.txt) you can see some text. 
+Anyways, when visiting the [robots.txt](http://natas3.natas.labs.overthewire.org/robots.txt) you can see some text. 
 
 
 ```
@@ -54,18 +58,11 @@ Disallow: /s3cr3t/
 Since `/s3cr3t/` is leet for secret, I'm 99% positive that the password's there. 
 
 
-Let's change the directory to [/s3cr3t/](http://natas3.natas.labs.overthewire.org/s3cr3t/).
+Let's change the url to s3cr3t.
 
 
-Inside the `/s3cr3t/` directory is a [users.txt](http://natas3.natas.labs.overthewire.org/s3cr3t/users.txt) file. 
-
+Inside the `/s3cr3t/` directory is a `users.txt`.
 
 ```
-natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
+natas4:JDrPnuZAKyl6MkiqQGFIddrqpvgOASth
 ```
-
-
-After solving the challenge, I wonder what the `User-agent` means. 
-
-
-I've read a couple of explanations on what `User-agent` is but it's still confusing to me. 

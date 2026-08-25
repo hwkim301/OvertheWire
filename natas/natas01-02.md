@@ -28,7 +28,7 @@ Let's check the `users.txt` file.
 alice:BYNdCesZqW
 bob:jw2ueICLvT
 charlie:G5vCxkVV3m
-natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+natas3:K30JrSRHzjxq3paUQuwozY4MNvmNFyhI
 eve:zo4mJWyNj2
 mallory:9urtcpzBmH
 ```

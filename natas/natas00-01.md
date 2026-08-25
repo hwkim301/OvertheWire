@@ -7,9 +7,9 @@ It's pretty much the same as the previous level, but the website doesn't allow y
 That's okay because I already explained two other ways without right clicking to view the source code.
 
 
-The password is in the `html` comments as well. 
+The password is in the html comments as well. 
 
 
 ```html
-<!--The password for natas2 is TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI -->
+<!--The password for natas2 is vsDOxoXyq3wckCP1ZmTZ71ngIA606odB -->
 ```

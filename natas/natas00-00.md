@@ -3,7 +3,7 @@
 This is the first level of the natas wargames. 
 
 
-When you enter the **[url](http://natas0.natas.labs.overthewire.org)** of the website in prompts you to enter the username and password.
+When you enter the [url](http://natas0.natas.labs.overthewire.org) of the website, it prompts you to enter the username and password.
 
 
 After entering the username and password then it says you can find the password for the next level on this page. 
@@ -15,7 +15,7 @@ You'll have to inspect the page source of the website.
 There are multiple ways to do this.
 
 
-### 1. Press Ctrl + u(Windows) or Command + Option + u(Mac)
+### 1. Press Ctrl + u (Windows/Linux) or Command + Option + u (Mac)
 
 
 This will show you the page source of the website. 
@@ -39,5 +39,5 @@ You can find the comments in the `html` comments.
 
 
 ```html 
-<!--The password for natas1 is 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq -->
+<!--The password for natas1 is scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7 -->
 ```
