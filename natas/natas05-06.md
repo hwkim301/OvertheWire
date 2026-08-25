@@ -61,20 +61,15 @@ Access granted. The password for natas7 is B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0
 Here are some links helpful to solving the challenge.
 
 
-### 1. [What is a .inc in php?](https://stackoverflow.com/questions/7129842/what-is-an-inc-and-why-use-it
-)
+1. [What is a .inc in php?](https://stackoverflow.com/questions/7129842/what-is-an-inc-and-why-use-it)
 
 
-### 2. [Why does php use $ in variables?](https://stackoverflow.com/questions/3073812/why-php-variables-start-with-a-sign-symbol
-) 
+2. [Why does php use $ in variables?](https://stackoverflow.com/questions/3073812/why-php-variables-start-with-a-sign-symbol)
+
+3. [What is $_POST in php?](https://stackoverflow.com/questions/1039797/what-is-the-purpose-of-post) 
 
 
-### 3. [What is $_POST in php?](https://stackoverflow.com/questions/1039797/what-is-the-purpose-of-post 
-) 
-
-
-### 4.[Why does php start with a <?](https://www.reddit.com/r/PHP/comments/1mprxiw/why_should_a_php_file_always_start_with_that_ugly/ 
-) 
+4. [Why does php start with a <?](https://www.reddit.com/r/PHP/comments/1mprxiwwhy_should_a_php_file_always_start_with_that_ugly/) 
 
 You can still solve the challenge without understanding PHP, I think it's a good chance to learn a little bit. 
 
